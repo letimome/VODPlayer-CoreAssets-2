@@ -6,9 +6,8 @@ import java.applet.Applet;
 import java.net.URL;
 
 
-import java.awt.event.*;
-import MPEGDecoder.ListFrameListener2;
-import MPEGDecoder.VODClientListener3;
+//imports deleted
+
 
 public class VODClient extends Frame
 {
