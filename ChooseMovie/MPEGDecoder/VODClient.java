@@ -49,7 +49,7 @@ public class VODClient extends Frame
         video.setvideostream(curmovie.getstream_url());
         label3.setText(new StringBuffer("Title : ").append(string).toString());
 
-       
+       buttonControl2_actionPerformed(null); //play movie immediately after selecting it
 
     }
     
