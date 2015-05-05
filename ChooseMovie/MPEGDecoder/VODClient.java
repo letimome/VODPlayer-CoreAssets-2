@@ -49,6 +49,9 @@ public class VODClient extends Frame
         label3.setText(new StringBuffer("Title : ").append(string).toString());
 
        buttonControl2_actionPerformed(null); //play movie immediately after selecting it
+       //mas
+       //mas+
+       //mas
 
     }
     
