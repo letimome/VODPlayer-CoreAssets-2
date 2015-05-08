@@ -6,8 +6,6 @@ import java.applet.Applet;
 import java.net.URL;
 
 
-//imports deleted
-
 
 public class VODClient extends Frame
 {
@@ -47,12 +45,6 @@ public class VODClient extends Frame
         panel1.clearscreen();
         video.setvideostream(curmovie.getstream_url());
         label3.setText(new StringBuffer("Title : ").append(string).toString());
-
-       buttonControl2_actionPerformed(null); //play movie immediately after selecting it
-       //mas
-       //mas+
-       //mas
-
     }
     
     void setButtonPlay(){} 
