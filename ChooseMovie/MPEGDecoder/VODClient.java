@@ -45,6 +45,7 @@ public class VODClient extends Frame
         panel1.clearscreen();
         video.setvideostream(curmovie.getstream_url());
         label3.setText(new StringBuffer("Title : ").append(string).toString());
+        
     }
     
     void setButtonPlay(){} 
