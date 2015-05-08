@@ -15,14 +15,7 @@ public class Video implements Runnable
 
     public final void stopmovie()
     {
-        if (instream == null)
-            return;
-        Date date = new Date();
-        Float floatx= new Float((float)(1000 * gop.getnumofpic()) / (date.getTime() - starttime));
-        String string = floatx.toString();
-        if (string.length() > 5)
-            string = string.substring(0, 5);
-        fps.setText(string + " fps");
+       
         try
         {
             instream.close();
