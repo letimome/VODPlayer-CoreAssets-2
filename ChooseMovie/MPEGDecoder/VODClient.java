@@ -5,7 +5,6 @@ import java.awt.*;
 import java.applet.Applet;
 import java.net.URL;
 
-
 public class VODClient extends Frame
 {
     Button buttonControl1;//button Movie
