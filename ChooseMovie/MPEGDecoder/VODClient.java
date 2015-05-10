@@ -5,7 +5,6 @@ import java.awt.*;
 import java.applet.Applet;
 import java.net.URL;
 
-//new update DE
 
 public class VODClient extends Frame
 {
