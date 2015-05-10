@@ -19,9 +19,7 @@ public class VODClient extends Frame
     	c = ListFrameListener2.class;
         c = VODClientListener1.class;
         
-        ////añadir
-        ///asdadas
-        ///Asdadad
+
     }
     
     public final void init(){
@@ -30,7 +28,7 @@ public class VODClient extends Frame
     }
     void buttonControl1_actionPerformed(ActionEvent actionEvent)
     {
-		//movies
+	
         listframe.show();
     }
 
