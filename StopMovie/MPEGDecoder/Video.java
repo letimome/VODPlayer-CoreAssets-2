@@ -12,7 +12,6 @@ public class Video implements Runnable
 {
     
 
-
     public final void stopmovie()
     {
         if (instream == null)
