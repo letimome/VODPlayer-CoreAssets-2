@@ -26,7 +26,6 @@ public class Detail extends Frame
         label5 = new Label();
         label6 = new Label();
         label7 = new Label();
-        
         try
         {
             jbInit();
