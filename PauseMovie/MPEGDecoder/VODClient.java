@@ -12,6 +12,7 @@ import java.awt.event.*;
 import MPEGDecoder.VODClientListener2;
 import MPEGDecoder.VODClientListener3;
 
+
 public class VODClient extends Frame {//play, pause, resume
 	
 	
