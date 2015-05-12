@@ -8,7 +8,6 @@ import java.io.*;
 import java.awt.Label;
 import java.net.URL;
 import java.util.Date;
-
 public class Video implements Runnable 
 {
     
