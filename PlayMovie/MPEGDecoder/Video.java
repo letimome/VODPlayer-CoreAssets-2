@@ -26,6 +26,13 @@ public class Video implements Runnable
 				}
 				else					
 	                instream = new BitInputStream(movieurl.openStream());
+				if (movieurl.getProtocol().toLowerCase().equals("file"))
+				{
+					String fileName = movieurl.getHost()+":"+movieurl.getFile();
+					instream = new BitInputStream(new FileInputStream(fileName));
+				}
+				else					
+	                instream = new BitInputStream(movieurl.openStream());
 				
                 gop.setstream(instream);
                 starttime = System.currentTimeMillis();
@@ -54,6 +61,23 @@ public class Video implements Runnable
                 System.out.println("Error during opening stream");
                 return;
             }
+        }
+      
+    }		
+                gop.setstream(instream);
+                store.clearprevdisptime();
+                instream.next_start_code();
+                do
+                {
+                    parse_sequence_header();
+                    do
+                        gop.read_gop();
+                    while (instream.nextaligned(32) == 440);
+                }
+                while (instream.nextaligned(32) == 435);
+                Float floatx = new Float((float)(1000 * gop.getnumofpic()) / (System.currentTimeMillis() - starttime));
+                String string = floatx.toString();
+                fps.setText(string + " fps");
         }
       
     }
