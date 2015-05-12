@@ -19,4 +19,5 @@ final class ServerSelectListener3 implements ActionListener
     {
         this$0.textField1_actionPerformed(actionEvent);
     }
+    
 }
