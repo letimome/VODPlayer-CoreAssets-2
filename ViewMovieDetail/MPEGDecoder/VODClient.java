@@ -19,7 +19,6 @@ public class VODClient extends Frame
 
     public VODClient()
     {		
-           
         c = ListFrameListener3.class;
         c = DetailListener1.class;
         c = Detail.class;
