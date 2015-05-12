@@ -8,10 +8,8 @@ import java.applet.Applet;
 import java.net.URL;
 import java.awt.event.*;
 
-
 import MPEGDecoder.VODClientListener2;
 import MPEGDecoder.VODClientListener3;
-
 
 public class VODClient extends Frame {//play, pause, resume
 	
@@ -22,11 +20,11 @@ public class VODClient extends Frame {//play, pause, resume
 		
 		if (buttonControl2.getLabel().equals("PAUSE")) {
 			vthread.suspend();
-			buttonControl2.setLabel("RESUME");
+			buttonControl2.setLabel("CLICK TO RESUME");
 			return;//
 		} 
 		
-		if(buttonControl2.getLabel().equals("RESUME")) {
+		if(buttonControl2.getLabel().equals("CLICK TO RESUME")) {
 			vthread.resume();
 			buttonControl2.setLabel("PAUSE");
 			return;//
