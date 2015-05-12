@@ -45,12 +45,14 @@ public class ListFrame extends Frame
 	        hostreset();
 	        parent.clearmovie();
 	    }
-	 /* public ListFrame(ServerReq serverReq, VODClient vODClient)
+	 
+	 
+	  public ListFrame(ServerReq serverReq, VODClient vODClient)
 	    {
-		  //original(serverReq,vODClie);
-		  //serverselect = new ServerSelect(this);
-		  //hostreset();
-	    }*/
+		  original(serverReq,vODClie);
+		  serverselect = new ServerSelect(this);
+		  hostreset();
+	    }
 
 	
 	   
