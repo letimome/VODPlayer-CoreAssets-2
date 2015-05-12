@@ -13,6 +13,7 @@ public class Detail extends Frame
     Label label3;
     Label label4;
     Label label5;
+    Label label6;
     public Detail()
     {
         bevelPanel1 = new BorderPanel(1, new Color(220, 220, 220), new Color(50, 50, 50));
@@ -23,6 +24,9 @@ public class Detail extends Frame
         label3 = new Label();
         label4 = new Label();
         label5 = new Label();
+        label6 = new Label();
+        label7 = new Label();
+        
         try
         {
             jbInit();
@@ -60,6 +64,9 @@ public class Detail extends Frame
         label4.setText("Description :");
         label5.setFont(new Font("Dialog", 0, 14));
         label5.setBounds(new Rectangle(37, 87, 280, 31));
+         label6.setBounds(new Rectangle(57, 107, 310, 41));
+         label7.setBounds(new Rectangle(87, 127, 330, 57));
+        
         setBackground(Color.lightGray);
         setTitle("Movie Information");
         bevelPanel1.setLayout(null);
@@ -82,5 +89,7 @@ public class Detail extends Frame
         label2.setText(new StringBuffer("Actor : ").append(movie.getactor()).toString());
         label3.setText(new StringBuffer("Director : ").append(movie.getdirector()).toString());
         label5.setText(movie.getdescription());
+        label6.setText (new StringBuffer("Awards: ").append(movie.getawards()).toString());
+        label7.setText (new StringBuffer("Reviews: ").append(movie.getReviews()).toString());
     }
 }
