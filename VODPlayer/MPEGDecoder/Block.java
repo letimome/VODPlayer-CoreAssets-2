@@ -1,6 +1,7 @@
 /* Decompiled by Jasmine from Block.class */
 /* Originally compiled from Block.java */
 
+
 package MPEGDecoder;
 
 import java.io.PrintStream;
