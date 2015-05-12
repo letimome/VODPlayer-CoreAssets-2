@@ -1,6 +1,7 @@
 /* Decompiled by Jasmine from Video2.class */
 /* Originally compiled from Video2.java */
 
+
 package MPEGDecoder;
 
 import java.io.*;
