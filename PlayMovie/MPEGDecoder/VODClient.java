@@ -26,6 +26,7 @@ public class VODClient extends Frame
 		buttonControl2.setLabel("PLAY");
 		buttonControl2.addActionListener(new VODClientListener2(this));
 		bevelPanel2.add(buttonControl2, null);
+		//additional funct
 	}
 
     
@@ -36,6 +37,9 @@ public class VODClient extends Frame
 				return;
 			vthread = new Thread(video);
 			vthread.start();
+			//additional funct
+			//additional funct
+			//additional funct
 		
 			setLabelPause();//lo refinaPause si es necesario
 					//buttonControl2.setLabel("PAUSE");	
