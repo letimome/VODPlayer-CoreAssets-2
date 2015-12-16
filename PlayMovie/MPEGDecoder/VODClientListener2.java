@@ -13,6 +13,7 @@ final class VODClientListener2 implements ActionListener
     VODClientListener2(VODClient vODClient)
     {
 		this$0 = vODClient;
+		///adddd
     }
 
     public void actionPerformed(ActionEvent actionEvent)
