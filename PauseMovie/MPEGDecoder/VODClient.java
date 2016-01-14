@@ -14,6 +14,7 @@ import MPEGDecoder.VODClientListener3;
 public class VODClient extends Frame {//play, pause, resume
 	
 	
+	
 	 private void ifActionPause(){//lo refina el pause para el starMov
 		
 		original();
