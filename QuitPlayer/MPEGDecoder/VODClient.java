@@ -16,6 +16,8 @@ public class VODClient extends Frame
 	Button buttonControl4;
    
 
+
+
     public VODClient()
     {
 		
@@ -63,8 +65,4 @@ public class VODClient extends Frame
         bevelPanel2.add(buttonControl4, null);
        
     }
-
-   
-    
-
 }
