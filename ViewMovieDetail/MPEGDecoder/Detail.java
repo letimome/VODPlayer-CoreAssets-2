@@ -82,6 +82,7 @@ public class Detail extends Frame
         add(button1, null);
     }
 
+
     public final void setmovie(Movie movie)
     {
         label1.setText(new StringBuffer("Title : ").append(movie.gettitle()).toString());
