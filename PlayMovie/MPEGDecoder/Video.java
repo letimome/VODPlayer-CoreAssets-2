@@ -3,9 +3,6 @@
 
 
 package MPEGDecoder;
-//mas
-//mas
-//mas
 
 import java.io.*;
 import java.awt.Label;
