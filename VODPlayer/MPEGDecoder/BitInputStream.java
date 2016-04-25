@@ -1,6 +1,8 @@
 /* Decompiled by Jasmine from BitInputStream.class */
 /* Originally compiled from BitInputStream.java */
 
+
+
 package MPEGDecoder;
 import java.io.*;
 
