@@ -2,6 +2,7 @@
 
 package MPEGDecoder;
 
+//nueva version VODPlayer
 import java.awt.Label;
 
 public class GOP
